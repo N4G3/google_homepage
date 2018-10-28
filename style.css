@@ -14,7 +14,19 @@
   height: 35px;
   border: 1px solid #E1E1E1;
   border-radius: 2px;
-  -webkit-box-shadow: 1px 2px 1x #EFEFEF;
-  -moz-box-shadow: 1px 2px 1x #EFEFEF;
   box-shadow: 1px 2px 1px #EFEFEF;
+    -webkit-box-shadow: 1px 2px 1x #EFEFEF;
+    -moz-box-shadow: 1px 2px 1x #EFEFEF;
+}
+
+/* BUTTONS */
+.buttons {
+  padding-top: 25px;
+  width: 100%;
+  text-align: center;
+}
+.buttons button {
+  background-color: #F4F4F4;
+  padding-left: 10px;
+  padding-right: 10px;
 }
