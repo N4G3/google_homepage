@@ -2,6 +2,13 @@
   width: 100%;
   text-align: center;
 }
-#google_logo {
-  
+
+/* SEARCH BAR */
+.search {
+  text-align: center;
+  width: 100%;
+}
+.search form input {
+  width: 45%; 
+  height: 25px;
 }
