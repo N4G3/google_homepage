@@ -1,6 +1,7 @@
 .logo {
   width: 100%;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 /* SEARCH BAR */
@@ -10,5 +11,10 @@
 }
 .search form input {
   width: 45%; 
-  height: 25px;
+  height: 35px;
+  border: 1px solid #E1E1E1;
+  border-radius: 2px;
+  -webkit-box-shadow: 1px 2px 1x #EFEFEF;
+  -moz-box-shadow: 1px 2px 1x #EFEFEF;
+  box-shadow: 1px 2px 1px #EFEFEF;
 }
