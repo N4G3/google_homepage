@@ -5,7 +5,6 @@ html, body, header, footer, nav, div, img, form {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
 }
 
 /* HEADER */
@@ -17,7 +16,6 @@ header {
   font-size: 13px;
   justify-content: space-between;
   margin-bottom: 160px;
-  border: 1px solid black;
 }
 header .h_left {
   display: flex;
@@ -29,9 +27,15 @@ header .h_left a {
   margin-right: 19px;
 }
 header .h_right {
-  margin-right: 25px;   
-  margin-bottom: auto;
-  margin-top: auto;
+  display: flex;
+  vertical-align: middle;
+}
+header .h_right a {
+  margin-right: 19px;
+}
+
+header .h_right img {
+  border-radius: 50%;
 }
 
 /* link (unactive, hover) styling */
