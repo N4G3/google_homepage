@@ -21,6 +21,14 @@ header .h_left {
   display: flex;
   padding-left: 25px; 
 }
+header .h_left a {
+  padding-right: 20px;
+  text-decoration: none;
+  color: #3F3F3F;
+}
+header .h_left a:hover {
+  text-decoration: underline;
+}
 
 .logo {
   width: 100%;
