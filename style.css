@@ -1,3 +1,27 @@
+/* RESETS (adjusted from Eric Meyer's reset file) */
+html, body, header, footer, nav, div, img, form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  border: 1px solid black;
+}
+header .h_left {
+  display: flex;
+  padding-left: 25px; 
+}
+
 .logo {
   width: 100%;
   text-align: center;
@@ -26,7 +50,7 @@
   text-align: center;
 }
 .buttons button {
-  font-family: arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 13px;
   column-rule: #757575;
