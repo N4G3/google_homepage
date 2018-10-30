@@ -6,14 +6,28 @@ html, body, header, footer, nav, div, img, form {
   font-size: 100%;
   font: inherit;
 }
-
-/* HEADER */
-header {
+/* general styling rules */
+header, footer {
   width: 100%;
-  display: flex;
-  margin-top: 13px;
+}
+header, footer, .buttons button {
   font-family: Arial, sans-serif;
   font-size: 13px;
+}
+header, footer, .h_left a, .h_right a, .f_left a, .f_right a {
+  color: #222222;
+}
+.h_left a, .h_right a, .f_left a, .f_right a {
+  text-decoration: none;                          
+}
+.h_left a:hover, .h_right a:hover, .f_left a:hover, .f_right a:hover {
+  text-decoration: underline;
+}
+
+/* header-specific styling rules */
+header {
+  display: flex;
+  margin-top: 13px;
   justify-content: space-between;
   margin-bottom: 150px;
 }
@@ -22,7 +36,6 @@ header {
   margin-left: 24px; 
   margin-top: auto;
   margin-bottom: auto;
-  color: #696969;
 }
 .h_left a {
   margin-right: 19px;
@@ -30,7 +43,6 @@ header {
 .h_right {
   display: flex;
   align-items: center;
-  color: #696969;
 }
 .h_right a {
   margin-right: 19px;
@@ -41,16 +53,9 @@ header .h_right img {
   margin-right: 10px;
 }
 
-/* link (unactive, hover) styling */
-.h_left a, .h_right a, .f_left a, .f_right a {
-  text-decoration: none;
-  color: #3F3F3F;
-}
-.h_left a:hover, .h_right a:hover, .f_left a:hover, .f_right a:hover {
-  text-decoration: underline;
-}
 
 
+/* logo styling */
 .logo {
   width: 100%;
   text-align: center;
@@ -63,7 +68,7 @@ header .h_right img {
   text-align: center;
 }
 .search form input {
-  width: 44%; 
+  width: 44%; /* UPDATE VALUE! */
   height: 42px;
   border: 1px solid #E1E1E1;
   border-radius: 2px;
@@ -79,9 +84,7 @@ header .h_right img {
   text-align: center;
 }
 .buttons button {
-  font-family: Arial, sans-serif;
   font-weight: bold;
-  font-size: 13px;
   column-rule: #757575;
   height: 35px;
   width: 135px;
@@ -101,12 +104,8 @@ footer {
   position: absolute;
   bottom: 0;
   height: 40px;
-  width: 100%;
   border-top: 1px solid #E8E8E8;
   background-color: #F2F2F2;
-  font-family: Arial, sans-serif;
-  font-size: 13px;
-  color: #696969;
 }
 .f_left {
   position: relative;
