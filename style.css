@@ -11,31 +11,34 @@ html, body, header, footer, nav, div, img, form {
 header {
   width: 100%;
   display: flex;
-  margin-top: 16px;
+  margin-top: 13px;
   font-family: Arial, sans-serif;
   font-size: 13px;
   justify-content: space-between;
-  margin-bottom: 160px;
+  margin-bottom: 150px;
 }
-header .h_left {
+.h_left {
   display: flex;
   margin-left: 24px; 
   margin-top: auto;
   margin-bottom: auto;
+  color: #696969;
 }
-header .h_left a {
+.h_left a {
   margin-right: 19px;
 }
-header .h_right {
+.h_right {
   display: flex;
-  vertical-align: middle;
+  align-items: center;
+  color: #696969;
 }
-header .h_right a {
+.h_right a {
   margin-right: 19px;
 }
 
 header .h_right img {
   border-radius: 50%;
+  margin-right: 10px;
 }
 
 /* link (unactive, hover) styling */
@@ -51,7 +54,7 @@ header .h_left a:hover, header .h_right a:hover {
 .logo {
   width: 100%;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
 }
 
 /* SEARCH BAR */
@@ -60,18 +63,18 @@ header .h_left a:hover, header .h_right a:hover {
   text-align: center;
 }
 .search form input {
-  width: 45%; 
-  height: 35px;
+  width: 44%; 
+  height: 42px;
   border: 1px solid #E1E1E1;
   border-radius: 2px;
-  box-shadow: 1px 2px 1px #EFEFEF;
-    -webkit-box-shadow: 1px 2px 1x #EFEFEF;
-    -moz-box-shadow: 1px 2px 1x #EFEFEF;
+  box-shadow: 2px 2px 1px #EFEFEF;
+    -webkit-box-shadow: 2px 2px 1x #EFEFEF;
+    -moz-box-shadow: 2px 2px 1x #EFEFEF;
 }
 
 /* BUTTONS */
 .buttons {
-  padding-top: 25px;
+  padding-top: 30px;
   width: 100%;
   text-align: center;
 }
