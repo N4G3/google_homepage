@@ -14,7 +14,7 @@ header, footer, .buttons button {
   font-family: Arial, sans-serif;
   font-size: 13px;
 }
-header, footer, .h_left a, .h_right a, .f_left a, .f_right a {
+header, footer, .h_left a, .h_right a {
   color: #222222;
 }
 .h_left a, .h_right a, .f_left a, .f_right a {
@@ -33,7 +33,7 @@ header {
 }
 .h_left {
   display: flex;
-  margin-left: 24px; 
+  margin-left: 25px; 
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -106,11 +106,23 @@ footer {
   height: 40px;
   border-top: 1px solid #E8E8E8;
   background-color: #F2F2F2;
+  display: flex;
+  justify-content: space-between;
 }
 .f_left {
-  position: relative;
-  left: 25px;
+  margin: auto 0;
+  padding-left: 30px;
 }
 .f_left a {
-
+  margin-right: 23px;
 }
+.f_right {
+  margin: auto 30px auto 0;
+}
+.f_right a {
+  padding-left: 23px;
+}
+.f_left a, .f_right a {
+  color: #5f6368;
+}
+
