@@ -42,11 +42,11 @@ header .h_right img {
 }
 
 /* link (unactive, hover) styling */
-header .h_left a, header .h_right a {
+.h_left a, .h_right a, .f_left a, .f_right a {
   text-decoration: none;
   color: #3F3F3F;
 }
-header .h_left a:hover, header .h_right a:hover {
+.h_left a:hover, .h_right a:hover, .f_left a:hover, .f_right a:hover {
   text-decoration: underline;
 }
 
@@ -93,5 +93,25 @@ header .h_left a:hover, header .h_right a:hover {
 }
 button:hover {
   border: 1px solid lightgrey;
+
+}
+
+/* footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  border-top: 1px solid #E8E8E8;
+  background-color: #F2F2F2;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  color: #696969;
+}
+.f_left {
+  position: relative;
+  left: 25px;
+}
+.f_left a {
 
 }
