@@ -10,12 +10,12 @@ html, body, header, footer, nav, div, img, form {
 header, footer {
   width: 100%;
 }
-header, footer, .buttons button {
+header, footer, .h_right button, .buttons button {
   font-family: Arial, sans-serif;
   font-size: 13px;
 }
-header, footer, .h_left a, .h_right a {
-  color: #222222;
+header, .h_left a, .h_right a {
+  color: #525252;
 }
 .h_left a, .h_right a, .f_left a, .f_right a {
   text-decoration: none;                          
@@ -27,7 +27,7 @@ header, footer, .h_left a, .h_right a {
 /* header-specific styling rules */
 header {
   display: flex;
-  margin-top: 13px;
+  margin-top: 15px;
   justify-content: space-between;
   margin-bottom: 150px;
 }
@@ -45,15 +45,21 @@ header {
   align-items: center;
 }
 .h_right a {
-  margin-right: 19px;
+  margin-right: 18px;
 }
-
-header .h_right img {
-  border-radius: 50%;
-  margin-right: 10px;
+.h_right .material-icons {
+  padding-top: 4px;
 }
-
-
+.h_right button {
+  height: 30px;
+  width: 71px;
+  background-color: rgb(65, 131, 245);
+  border: 1px solid rgb(65, 131, 245);
+  border-radius: 2px;
+  color: #FFFFFF;
+  font-weight: bold;
+  margin-right: 30px;
+}
 
 /* logo styling */
 .logo {
@@ -70,11 +76,11 @@ header .h_right img {
 .search form input {
   width: 44%; /* UPDATE VALUE! */
   height: 42px;
-  border: 1px solid #E1E1E1;
+  border: none;
   border-radius: 2px;
-  box-shadow: 2px 2px 1px #EFEFEF;
-    -webkit-box-shadow: 2px 2px 1x #EFEFEF;
-    -moz-box-shadow: 2px 2px 1x #EFEFEF;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
 }
 
 /* BUTTONS */
@@ -90,6 +96,7 @@ header .h_right img {
   width: 135px;
   background-color: #F2F2F4;
   border: 1px solid #F2F2F2;
+  color: #757575;
   border-radius: 2px;
   margin-left: 3px;
   margin-right: 3px;
